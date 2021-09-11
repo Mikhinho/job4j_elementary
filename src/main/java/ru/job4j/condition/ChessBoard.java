@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class ChessBoard {
 
     public static boolean inRange(int coord) {
-        return coord >=0 && coord <=7;
+        return coord >= 0 && coord <= 7;
     }
 
     public static int way(int x1, int y1, int x2, int y2) {
